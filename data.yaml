@@ -1,0 +1,14 @@
+path: datasets_detect_baby_in_crib
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['Crib']
+
+roboflow:
+  workspace: test-1caua
+  project: only-crib
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-1caua/only-crib/dataset/1
